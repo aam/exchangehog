@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GeneralTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="8cce1239-9f9f-ab92-b925-31be63d764d3">
+  <Signatures>
+    <Signature>8DFD31A6A7A427E293AC7B5DF0C018567E3055C3</Signature>
+    <Signature>3953BF0276112B410EC18866EE44C4FFAC0CB727</Signature>
+    <Signature>2D7B9EE704460ED89C064B29488AA30D71A5F126</Signature>
+  </Signatures>
+</Test>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TestAtom" IsTestCase="false" TestCaseId="0" AutomatedTestId="786da97c-29dd-acb8-569a-82c6a804c4b1">
+  <Signatures>
+    <Signature>2F43A00D9A8EA38DA57636F6BE2C4C6253DB55D3</Signature>
+    <Signature>93A65910F4BB118816EAC0563AF71100A6BF2F77</Signature>
+    <Signature>974EECE270B87CFD2238E0457743B188D929094F</Signature>
+    <Signature>E2C7C0369538BAEE7F5611B980784ACF7BF87476</Signature>
+    <Signature>CC92D1E9035E9879452D493DC015DD9A10F5B147</Signature>
+    <Signature>692EC38FC502F4DD0F297C16E5E41498F3FE75D0</Signature>
+    <Signature>D04BEC93C89EA83944513BB7AC083FCD915D1217</Signature>
+    <Signature>373E0ECD4A6D57050597CFBDE47553CDBCF5FFFA</Signature>
+    <Signature>E5949E211F0DD60ABCF309BF15269005AEA8876C</Signature>
+    <Signature>1CD2DE0E1336D8C6CC5B2859BBD908097E44339B</Signature>
+    <Signature>55AE4A8A3B3DA11CB775A8F8B4478C83D9990303</Signature>
+  </Signatures>
+</Test>

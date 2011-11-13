@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageParser", "MessageParser\MessageParser.csproj", "{07C89D26-C909-42C3-ACDD-B6277CCFC87A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageParserTest", "MessageParserTest\MessageParserTest.csproj", "{B564EB41-C0BF-4122-8F6A-D17675BB81A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56D89DE0-6635-4E8A-8C3F-22DDF67DEF18}"
+	ProjectSection(SolutionItems) = preProject
+		ExchangeHog1.vsmdi = ExchangeHog1.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = MessageParser
+		SccLocalPath2 = MessageParserTest
+		SccNumberOfProjects = 3
+		SccProjectName1 = MessageParser
+		SccProjectName2 = MessageParserTest
+		SccProjectUniqueName1 = MessageParser\\MessageParser.csproj
+		SccProjectUniqueName2 = MessageParserTest\\MessageParserTest.csproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ExchangeHog1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C89D26-C909-42C3-ACDD-B6277CCFC87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C89D26-C909-42C3-ACDD-B6277CCFC87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C89D26-C909-42C3-ACDD-B6277CCFC87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C89D26-C909-42C3-ACDD-B6277CCFC87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B564EB41-C0BF-4122-8F6A-D17675BB81A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B564EB41-C0BF-4122-8F6A-D17675BB81A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B564EB41-C0BF-4122-8F6A-D17675BB81A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B564EB41-C0BF-4122-8F6A-D17675BB81A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccLocalPath1 = MessageParser
+		SccLocalPath2 = MessageParserTest
+		SccLocalPath3 = MessageParser
+		SccNumberOfProjects = 4
+		SccProjectName1 = MessageParser
+		SccProjectName2 = MessageParserTest
+		SccProjectName3 = MessageParser
+		SccProjectUniqueName1 = MessageParser\\MessageParser.csproj
+		SccProjectUniqueName2 = MessageParserTest\\MessageParserTest.csproj
+		SccProjectUniqueName3 = MessageParser\\MessageParser.csproj
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs02
+	EndGlobalSection
+EndGlobal

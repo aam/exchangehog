@@ -1,0 +1,532 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0964b9b8-e8b7-4960-9ef1-49951a7a0075" name="Administrator@PORTABLE7 2011-11-13 13:07:36" runUser="PORTABLE7\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="20495040-29c1-4a09-a793-3d985daae558">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Administrator_PORTABLE7 2011-11-13 13_07_36">
+      <DeploymentItem filename="C:\EH1\ExchangeHog\MessageParser\bin\Debug\MessageParser.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Action Log">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-13T13:07:36.5154852-05:00" queuing="2011-11-13T13:07:41.2222025-05:00" start="2011-11-13T13:07:53.8704675-05:00" finish="2011-11-13T13:08:35.0967626-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="21" executed="21" passed="21" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestObsoleteMailboxWithoutQuotesAroundDot" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="093832e5-b41b-7ecb-ec77-31a85aa1e652">
+      <Execution id="8deabbd4-e12a-43e8-8b54-d5fa6c3d29cd" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObsoleteMailboxWithoutQuotesAroundDot" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithSpacesAndComments" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="2fef434e-f61a-a49e-852c-0f1653a77593">
+      <Execution id="0997cae1-68e2-4058-8941-483e61b59eea" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithSpacesAndComments" />
+    </UnitTest>
+    <UnitTest name="TestMailbox" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="37656538-6c25-babd-3ab5-ba544b934ef2">
+      <Execution id="a6133f71-9a3c-405b-a76b-c12781f6f9d7" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailbox" />
+    </UnitTest>
+    <UnitTest name="TestObsoleteMailboxWithCommentsInAddress" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="2203fbeb-44ee-6b32-8bc3-a052aa99659e">
+      <Execution id="1a956494-3cdb-4606-8f0a-cfa6dac5601c" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestObsoleteMailboxWithCommentsInAddress" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithComments" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="7dc336c5-b2cb-6d00-c421-f5f26bb469fc">
+      <Execution id="ac27ac53-a07b-4baf-9342-8d258b45dcdc" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithComments" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithBigGroup" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="425b6216-2671-5051-03ee-8dc3d92c9d0f">
+      <Execution id="ba483805-0056-4d7c-8c5a-632be32da407" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithBigGroup" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithQuotedName1" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="0a559323-2b1b-02f9-3e98-135224936b9d">
+      <Execution id="e97e0104-729b-4470-97e5-319503a71467" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithQuotedName1" />
+    </UnitTest>
+    <UnitTest name="TestQuotedStringWithQuotedChars" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="8daf5240-826c-92df-bdcb-94de67ceb68f">
+      <Execution id="003ff65f-b25a-42fd-bd88-1c03715b6db0" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LexerTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestQuotedStringWithQuotedChars" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithQuotedName" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="2a65e053-12d2-d22b-310d-38bc3fdf65c4">
+      <Execution id="cc64a772-cda8-4910-973f-a2858ddca50b" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithQuotedName" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithSpaces" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="5469a626-098e-ab46-1030-5200f5b4501a">
+      <Execution id="54821ecd-a5e9-4933-a5b9-5f0a21d6e5e7" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithSpaces" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithQuotedStringAddr" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="2eb8bddb-bcda-1bf1-2dc0-5764b4d43a72">
+      <Execution id="c8a29d64-45b3-43b0-8042-73109f715201" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithQuotedStringAddr" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithCommentsInDisplayNameAndAngleAddr" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="ca6e3b10-1bc4-ef0d-7df2-df21b6bf62c0">
+      <Execution id="f1f88a3d-0bd1-4a70-a78b-ebfadbc417ce" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithCommentsInDisplayNameAndAngleAddr" />
+    </UnitTest>
+    <UnitTest name="TestQuotedString" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="3c4cf07c-01dc-4ea9-0d6a-0b10e42f304c">
+      <Execution id="5e894bf0-a1b4-40d1-902a-e521747e6a0e" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LexerTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestQuotedString" />
+    </UnitTest>
+    <UnitTest name="TestDotAtom" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="97f3542e-c024-c8a7-0cb0-bfd81d8b747a">
+      <Execution id="650c553f-e71d-4bb0-9460-5e20f5fa2e2d" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LexerTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDotAtom" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithSmallgGroup" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="18ae7338-2d70-8a77-351c-1fe60dbe16f1">
+      <Execution id="991a8eb5-0d0d-4cad-b0d0-09043d1fca2a" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithSmallgGroup" />
+    </UnitTest>
+    <UnitTest name="TestQuotedStringWithSpaces" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="ead687d5-eb99-16e7-dd47-9ae13215ae9e">
+      <Execution id="3a7c04aa-90b6-49a4-abc4-6a69b891e91c" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LexerTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestQuotedStringWithSpaces" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithFWS" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="b6dd5be9-6008-3693-8717-d3cb8b4f26c9">
+      <Execution id="49ee5c62-703c-4172-aefa-4945baf1ede5" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithFWS" />
+    </UnitTest>
+    <UnitTest name="GeneralTest" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="8cce1239-9f9f-ab92-b925-31be63d764d3">
+      <Execution id="83e60f7b-f3e8-4c70-bec6-a8f47aebffb5" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GeneralTest" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithQuestionMarkAddr" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="19180e6d-c741-77dc-6740-6985228cd285">
+      <Execution id="9a8887a5-884e-46be-a1ef-bb8f0415cf45" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithQuestionMarkAddr" />
+    </UnitTest>
+    <UnitTest name="TestMailboxWithAtomsName" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="c2b9cf2e-be91-5bc9-ceaf-b393a65daeaa">
+      <Execution id="7192bbf1-a341-4ee6-9a1a-1bc88ada9b6d" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ExchangeHog.MessageParserTest.ParserTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMailboxWithAtomsName" />
+    </UnitTest>
+    <UnitTest name="TestAtom" storage="c:\eh1\exchangehog\messageparsertest\bin\debug\messageparsertest.dll" id="786da97c-29dd-acb8-569a-82c6a804c4b1">
+      <Execution id="e145884b-1da4-4d1a-8f65-cf12dbff6b8c" />
+      <TestMethod codeBase="C:/EH1/ExchangeHog/MessageParserTest/bin/Debug/MessageParserTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.LexerTest, MessageParserTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAtom" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="093832e5-b41b-7ecb-ec77-31a85aa1e652" executionId="8deabbd4-e12a-43e8-8b54-d5fa6c3d29cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a559323-2b1b-02f9-3e98-135224936b9d" executionId="e97e0104-729b-4470-97e5-319503a71467" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18ae7338-2d70-8a77-351c-1fe60dbe16f1" executionId="991a8eb5-0d0d-4cad-b0d0-09043d1fca2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19180e6d-c741-77dc-6740-6985228cd285" executionId="9a8887a5-884e-46be-a1ef-bb8f0415cf45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2203fbeb-44ee-6b32-8bc3-a052aa99659e" executionId="1a956494-3cdb-4606-8f0a-cfa6dac5601c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a65e053-12d2-d22b-310d-38bc3fdf65c4" executionId="cc64a772-cda8-4910-973f-a2858ddca50b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2eb8bddb-bcda-1bf1-2dc0-5764b4d43a72" executionId="c8a29d64-45b3-43b0-8042-73109f715201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fef434e-f61a-a49e-852c-0f1653a77593" executionId="0997cae1-68e2-4058-8941-483e61b59eea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37656538-6c25-babd-3ab5-ba544b934ef2" executionId="a6133f71-9a3c-405b-a76b-c12781f6f9d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c4cf07c-01dc-4ea9-0d6a-0b10e42f304c" executionId="5e894bf0-a1b4-40d1-902a-e521747e6a0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="425b6216-2671-5051-03ee-8dc3d92c9d0f" executionId="ba483805-0056-4d7c-8c5a-632be32da407" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5469a626-098e-ab46-1030-5200f5b4501a" executionId="54821ecd-a5e9-4933-a5b9-5f0a21d6e5e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="786da97c-29dd-acb8-569a-82c6a804c4b1" executionId="e145884b-1da4-4d1a-8f65-cf12dbff6b8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7dc336c5-b2cb-6d00-c421-f5f26bb469fc" executionId="ac27ac53-a07b-4baf-9342-8d258b45dcdc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cce1239-9f9f-ab92-b925-31be63d764d3" executionId="83e60f7b-f3e8-4c70-bec6-a8f47aebffb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8daf5240-826c-92df-bdcb-94de67ceb68f" executionId="003ff65f-b25a-42fd-bd88-1c03715b6db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97f3542e-c024-c8a7-0cb0-bfd81d8b747a" executionId="650c553f-e71d-4bb0-9460-5e20f5fa2e2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6dd5be9-6008-3693-8717-d3cb8b4f26c9" executionId="49ee5c62-703c-4172-aefa-4945baf1ede5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2b9cf2e-be91-5bc9-ceaf-b393a65daeaa" executionId="7192bbf1-a341-4ee6-9a1a-1bc88ada9b6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca6e3b10-1bc4-ef0d-7df2-df21b6bf62c0" executionId="f1f88a3d-0bd1-4a70-a78b-ebfadbc417ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ead687d5-eb99-16e7-dd47-9ae13215ae9e" executionId="3a7c04aa-90b6-49a4-abc4-6a69b891e91c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8deabbd4-e12a-43e8-8b54-d5fa6c3d29cd" testId="093832e5-b41b-7ecb-ec77-31a85aa1e652" testName="TestObsoleteMailboxWithoutQuotesAroundDot" computerName="PORTABLE7" duration="00:00:29.3205192" startTime="2011-11-13T13:07:54.5404837-05:00" endTime="2011-11-13T13:08:25.3258796-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8deabbd4-e12a-43e8-8b54-d5fa6c3d29cd">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e97e0104-729b-4470-97e5-319503a71467" testId="0a559323-2b1b-02f9-3e98-135224936b9d" testName="TestMailboxWithQuotedName1" computerName="PORTABLE7" duration="00:00:00.0081334" startTime="2011-11-13T13:08:25.3424818-05:00" endTime="2011-11-13T13:08:25.4059608-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e97e0104-729b-4470-97e5-319503a71467">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="991a8eb5-0d0d-4cad-b0d0-09043d1fca2a" testId="18ae7338-2d70-8a77-351c-1fe60dbe16f1" testName="TestMailboxWithSmallgGroup" computerName="PORTABLE7" duration="00:00:00.0066698" startTime="2011-11-13T13:08:25.4186566-05:00" endTime="2011-11-13T13:08:25.4928782-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="991a8eb5-0d0d-4cad-b0d0-09043d1fca2a">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="9a8887a5-884e-46be-a1ef-bb8f0415cf45" testId="19180e6d-c741-77dc-6740-6985228cd285" testName="TestMailboxWithQuestionMarkAddr" computerName="PORTABLE7" duration="00:00:00.0011663" startTime="2011-11-13T13:08:25.5055740-05:00" endTime="2011-11-13T13:08:25.5417082-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a8887a5-884e-46be-a1ef-bb8f0415cf45">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="1a956494-3cdb-4606-8f0a-cfa6dac5601c" testId="2203fbeb-44ee-6b32-8bc3-a052aa99659e" testName="TestObsoleteMailboxWithCommentsInAddress" computerName="PORTABLE7" duration="00:00:06.4831250" startTime="2011-11-13T13:08:25.5563572-05:00" endTime="2011-11-13T13:08:32.0976240-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a956494-3cdb-4606-8f0a-cfa6dac5601c">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="cc64a772-cda8-4910-973f-a2858ddca50b" testId="2a65e053-12d2-d22b-310d-38bc3fdf65c4" testName="TestMailboxWithQuotedName" computerName="PORTABLE7" duration="00:00:00.0009076" startTime="2011-11-13T13:08:32.1288752-05:00" endTime="2011-11-13T13:08:32.1943074-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc64a772-cda8-4910-973f-a2858ddca50b">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="c8a29d64-45b3-43b0-8042-73109f715201" testId="2eb8bddb-bcda-1bf1-2dc0-5764b4d43a72" testName="TestMailboxWithQuotedStringAddr" computerName="PORTABLE7" duration="00:00:00.0008679" startTime="2011-11-13T13:08:32.2118862-05:00" endTime="2011-11-13T13:08:32.2431374-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c8a29d64-45b3-43b0-8042-73109f715201">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="0997cae1-68e2-4058-8941-483e61b59eea" testId="2fef434e-f61a-a49e-852c-0f1653a77593" testName="TestMailboxWithSpacesAndComments" computerName="PORTABLE7" duration="00:00:00.0013451" startTime="2011-11-13T13:08:32.2548566-05:00" endTime="2011-11-13T13:08:32.2900142-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0997cae1-68e2-4058-8941-483e61b59eea">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6133f71-9a3c-405b-a76b-c12781f6f9d7" testId="37656538-6c25-babd-3ab5-ba544b934ef2" testName="TestMailbox" computerName="PORTABLE7" duration="00:00:00.0012113" startTime="2011-11-13T13:08:32.3027100-05:00" endTime="2011-11-13T13:08:32.3447038-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6133f71-9a3c-405b-a76b-c12781f6f9d7">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e894bf0-a1b4-40d1-902a-e521747e6a0e" testId="3c4cf07c-01dc-4ea9-0d6a-0b10e42f304c" testName="TestQuotedString" computerName="PORTABLE7" duration="00:00:00.0011224" startTime="2011-11-13T13:08:32.3544698-05:00" endTime="2011-11-13T13:08:32.3876742-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e894bf0-a1b4-40d1-902a-e521747e6a0e">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ba483805-0056-4d7c-8c5a-632be32da407" testId="425b6216-2671-5051-03ee-8dc3d92c9d0f" testName="TestMailboxWithBigGroup" computerName="PORTABLE7" duration="00:00:00.0018630" startTime="2011-11-13T13:08:32.4052530-05:00" endTime="2011-11-13T13:08:32.4765448-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba483805-0056-4d7c-8c5a-632be32da407">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="54821ecd-a5e9-4933-a5b9-5f0a21d6e5e7" testId="5469a626-098e-ab46-1030-5200f5b4501a" testName="TestMailboxWithSpaces" computerName="PORTABLE7" duration="00:00:00.0009020" startTime="2011-11-13T13:08:32.4931470-05:00" endTime="2011-11-13T13:08:32.5370940-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54821ecd-a5e9-4933-a5b9-5f0a21d6e5e7">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="e145884b-1da4-4d1a-8f65-cf12dbff6b8c" testId="786da97c-29dd-acb8-569a-82c6a804c4b1" testName="TestAtom" computerName="PORTABLE7" duration="00:00:00.0005115" startTime="2011-11-13T13:08:32.5478366-05:00" endTime="2011-11-13T13:08:32.5849474-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e145884b-1da4-4d1a-8f65-cf12dbff6b8c">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="ac27ac53-a07b-4baf-9342-8d258b45dcdc" testId="7dc336c5-b2cb-6d00-c421-f5f26bb469fc" testName="TestMailboxWithComments" computerName="PORTABLE7" duration="00:00:00.0011599" startTime="2011-11-13T13:08:32.5966666-05:00" endTime="2011-11-13T13:08:32.6415902-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ac27ac53-a07b-4baf-9342-8d258b45dcdc">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="83e60f7b-f3e8-4c70-bec6-a8f47aebffb5" testId="8cce1239-9f9f-ab92-b925-31be63d764d3" testName="GeneralTest" computerName="PORTABLE7" duration="00:00:00.0004503" startTime="2011-11-13T13:08:32.6513562-05:00" endTime="2011-11-13T13:08:32.6923734-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83e60f7b-f3e8-4c70-bec6-a8f47aebffb5">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="003ff65f-b25a-42fd-bd88-1c03715b6db0" testId="8daf5240-826c-92df-bdcb-94de67ceb68f" testName="TestQuotedStringWithQuotedChars" computerName="PORTABLE7" duration="00:00:00.0008241" startTime="2011-11-13T13:08:32.7050692-05:00" endTime="2011-11-13T13:08:32.7587822-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="003ff65f-b25a-42fd-bd88-1c03715b6db0">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="650c553f-e71d-4bb0-9460-5e20f5fa2e2d" testId="97f3542e-c024-c8a7-0cb0-bfd81d8b747a" testName="TestDotAtom" computerName="PORTABLE7" duration="00:00:00.0007369" startTime="2011-11-13T13:08:32.7949164-05:00" endTime="2011-11-13T13:08:32.8447230-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="650c553f-e71d-4bb0-9460-5e20f5fa2e2d">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="49ee5c62-703c-4172-aefa-4945baf1ede5" testId="b6dd5be9-6008-3693-8717-d3cb8b4f26c9" testName="TestMailboxWithFWS" computerName="PORTABLE7" duration="00:00:00.0008657" startTime="2011-11-13T13:08:32.8564422-05:00" endTime="2011-11-13T13:08:32.9111318-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49ee5c62-703c-4172-aefa-4945baf1ede5">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="7192bbf1-a341-4ee6-9a1a-1bc88ada9b6d" testId="c2b9cf2e-be91-5bc9-ceaf-b393a65daeaa" testName="TestMailboxWithAtomsName" computerName="PORTABLE7" duration="00:00:00.0011507" startTime="2011-11-13T13:08:32.9453128-05:00" endTime="2011-11-13T13:08:32.9814470-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7192bbf1-a341-4ee6-9a1a-1bc88ada9b6d">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="f1f88a3d-0bd1-4a70-a78b-ebfadbc417ce" testId="ca6e3b10-1bc4-ef0d-7df2-df21b6bf62c0" testName="TestMailboxWithCommentsInDisplayNameAndAngleAddr" computerName="PORTABLE7" duration="00:00:00.0010641" startTime="2011-11-13T13:08:32.9960960-05:00" endTime="2011-11-13T13:08:33.0419962-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1f88a3d-0bd1-4a70-a78b-ebfadbc417ce">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a7c04aa-90b6-49a4-abc4-6a69b891e91c" testId="ead687d5-eb99-16e7-dd47-9ae13215ae9e" testName="TestQuotedStringWithSpaces" computerName="PORTABLE7" duration="00:00:00.0005277" startTime="2011-11-13T13:08:33.0566452-05:00" endTime="2011-11-13T13:08:33.1054752-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a7c04aa-90b6-49a4-abc4-6a69b891e91c">
+      <CollectorDataEntries>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\SystemInformation.xml">System Information from PORTABLE7</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="PORTABLE7" uri="datacollector://microsoft/TestImpact/1.0" collectorDisplayName="Test Impact">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="PORTABLE7\testimpact.xml">Test Impact Data</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

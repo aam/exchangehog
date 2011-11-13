@@ -1,0 +1,6 @@
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\MainWindow.g.cs
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\App.g.cs
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\ExchangeHog_MarkupCompile.cache
+C:\EH1\ExchangeHog\ExchangeHog\obj\x86\Debug\ExchangeHog_MarkupCompile.lref

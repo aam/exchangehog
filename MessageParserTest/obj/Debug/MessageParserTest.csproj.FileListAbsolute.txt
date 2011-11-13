@@ -1,0 +1,7 @@
+C:\EH1\ExchangeHog\MessageParserTest\obj\Debug\MessageParserTest.csprojResolveAssemblyReference.cache
+C:\EH1\ExchangeHog\MessageParserTest\bin\Debug\MessageParserTest.dll
+C:\EH1\ExchangeHog\MessageParserTest\bin\Debug\MessageParserTest.pdb
+C:\EH1\ExchangeHog\MessageParserTest\bin\Debug\MessageParser.dll
+C:\EH1\ExchangeHog\MessageParserTest\bin\Debug\MessageParser.pdb
+C:\EH1\ExchangeHog\MessageParserTest\obj\Debug\MessageParserTest.dll
+C:\EH1\ExchangeHog\MessageParserTest\obj\Debug\MessageParserTest.pdb

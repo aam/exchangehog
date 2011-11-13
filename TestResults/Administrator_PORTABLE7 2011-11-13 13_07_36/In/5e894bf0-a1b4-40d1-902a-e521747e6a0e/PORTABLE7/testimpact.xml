@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TestQuotedString" IsTestCase="false" TestCaseId="0" AutomatedTestId="3c4cf07c-01dc-4ea9-0d6a-0b10e42f304c">
+  <Signatures>
+    <Signature>E9F6F160237AA354E1ECB69E82C87F9160081D42</Signature>
+    <Signature>93A65910F4BB118816EAC0563AF71100A6BF2F77</Signature>
+    <Signature>974EECE270B87CFD2238E0457743B188D929094F</Signature>
+    <Signature>E2C7C0369538BAEE7F5611B980784ACF7BF87476</Signature>
+    <Signature>D76BF97A98BB2F5598D422883FC8AF5C3C25C591</Signature>
+    <Signature>692EC38FC502F4DD0F297C16E5E41498F3FE75D0</Signature>
+    <Signature>4F03C580104D8CE236A9CCFC6738347499E15E3A</Signature>
+    <Signature>5D4A85A616F87002627B6FEEC176A7CAA77C6316</Signature>
+    <Signature>D04BEC93C89EA83944513BB7AC083FCD915D1217</Signature>
+    <Signature>B972FF0B738E64ED61D94F8D2DC0C5BAAC9EADBB</Signature>
+    <Signature>CBF0F235E7BBA2D8549450DA0F16CC93AB4E1C3F</Signature>
+    <Signature>C970A5637D10E4AFFFEA24CFAB89EA998B75E98A</Signature>
+    <Signature>55AE4A8A3B3DA11CB775A8F8B4478C83D9990303</Signature>
+  </Signatures>
+</Test>
